@@ -8,4 +8,4 @@ RUN cd exiv2 && \
     cd build && \
     cmake .. -G "Unix Makefiles" -DBUILD_WITH_CCACHE=On && \
     make
-
+CMD /exiv2/build/bin/exiv2
